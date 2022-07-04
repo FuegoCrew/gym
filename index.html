@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshita Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828732_1280.jpg');
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+            width: 10%;
+            
+        }
+        .left img{
+            font-size: 16px;
+            width: 125px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .mid {
+            display: block;
+            width: 35%;
+            margin: 20px auto;
+            
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 25px;
+            top: 20px;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: turquoise;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: turquoise;
+        }
+        .container{
+            border: 1px solid blanchedalmond;
+            margin: 100px 30px;
+            padding: 35px 35px;
+            width: 30%;
+            border-radius: 2px;
+
+        }
+        .form-group input{
+            margin: 10px auto;
+            text-align: center;
+            display: block;
+            width: 150px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .container h1{
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .container button{
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+           <img src="https://cdn.pixabay.com/photo/2016/03/31/19/34/black-1295124_1280.png" alt="">
+           <div> Harshita Fittness</div>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us Now</button>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="a" class="active">Home
+                    </a></li>
+                <li><a href="a">About Us</a></li>
+                <li><a href="a">Fittness Center</a></li>
+
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>
+            JOIN THE BEST GYM OF PRAYAGRAJ 
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone no.">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+            
+    </div>
+</body>
+
+</html>
